@@ -27,7 +27,7 @@ public class Projects {
     private Integer id;
 
     @NotEmpty
-    @Column(name = "NAME", unique = true, nullable = false)
+    @Column(name = "NAME", nullable = false)
     private String name;
 
     @NotEmpty

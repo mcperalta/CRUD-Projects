@@ -34,7 +34,7 @@
 					</tr>
 		    	</thead>
 	    		<tbody>
-				<c:forEach items="${project}" var="projects">
+				<c:forEach items="${project}" var="project">
 					<tr>
 						<td>${project.name}</td>
 						<td>${project.description}</td>
